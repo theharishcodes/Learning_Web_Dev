@@ -1,0 +1,23 @@
+.model{
+  font-family: Montserrat;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+
+  width: 300px;
+  margin: 0px 0px 10px;
+}
+.order-online{
+  font-family: Montserrat;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+
+  width: 300px;
+  margin: 0px;
+}
+.touchless-delivery{
+  text-decoration: underline;
+  cursor: pointer;
+}
