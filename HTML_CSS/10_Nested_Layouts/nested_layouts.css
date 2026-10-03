@@ -1,0 +1,131 @@
+.video-info {
+  width: 400px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.video-info:hover{
+  background-color: rgba(227, 225, 225, 0.381);
+}
+
+.thumbnail-image {
+  width: 400px;
+  height: 250px;
+
+  border: none;
+  border-radius: 15px;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile-picture {
+  display: inline-block;
+  width: 50px;
+  margin-top: 5px;
+  
+  vertical-align: top;
+}
+
+.profile-picture-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+
+  border: none;
+  border-radius: 25px;
+}
+
+.video-details{
+  display: inline-block;
+  width: 340px;
+  margin-top: 5px;
+
+  vertical-align: top;
+}
+.video-title{
+  font-weight: bold;
+  font-family: Arial;
+  margin: 5px 0px 15px;
+}
+.video-author{
+  font-family: Arial;
+  color: rgb(78, 78, 78);
+  font-size: 14px;
+  margin: 0px 0px 8px;
+}
+.video-stats{
+  font-family: Arial;
+  color: rgb(78, 78, 78);
+  font-size: 14px;
+  margin: 0px 0px 20px;
+}
+
+.exercise-10-a{
+  display: inline-block;
+  width: auto;
+  margin: 20px;
+}
+.cat-card{
+  display: inline-block;
+  width: 200px;
+  margin: 0px 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  
+  border-radius: 5px;
+}
+.cat-image{
+  width: 200px;
+  height: 200px;
+  margin: 0px 0px 10px;
+  
+  object-fit: cover;
+  object-position: top;
+
+  cursor: pointer;
+}
+.cat-name-block, .addfriendbutton{
+  font-family: Arial;
+  margin: 0px 10px 10px;
+}
+.cat-name{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+
+  margin: 0px;
+}
+.profile-friends{
+  margin: 0px 10px 10px;
+}
+.cat-profile{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.no-of-mfriends{
+  display: inline-block;
+  color: rgb(132, 132, 132);
+  margin: 0px 0px 0px 5px;
+  vertical-align: middle;
+}
+.add-friend{
+  background-color: rgb(65, 115, 229);
+  color: white;
+  font-size: 16px;
+
+  border: none;
+  border-radius: 3px;
+
+  padding: 10px 20px;
+
+  cursor: pointer;
+}
+.add-friend:hover{
+  opacity: 0.8;
+}
+.add-friend:active{
+  opacity: 0.5;
+}

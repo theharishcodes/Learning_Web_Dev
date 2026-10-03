@@ -1,0 +1,290 @@
+<!DOCTYPE>
+
+<html>
+  <head>
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="flexbox.css">
+  </head>
+
+  <body style="padding-bottom: 1000px;">
+    <div class="container_01">
+      <div class="blue">div 1 Extra text</div>
+      <div class="pink">
+        div2
+        <p>
+          New line
+        </p>
+      </div>
+    </div>
+
+    <div class="container_02">
+      <div class="blue100">100px</div>
+      <div class="pinkflex">
+        div2
+        <p>
+          New line
+        </p>
+      </div>
+    </div>
+    <div class="container_02">
+      <div class="blue100">100px</div>
+      <div class="pinkflex">
+        flex : 1
+        <p>
+          New line
+        </p>
+      </div>
+      <div class="blueflex">flex : 2</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        justify-content: center;
+      ">
+      <div
+      style="
+        background-color: lightblue;
+        width: 100px;
+      ">
+        100px
+      </div>
+      <div
+      style="
+        background-color: lightpink;
+        width: 100px;
+      ">
+        100px
+      </div>
+      <div
+      style="
+        background-color: lightblue;
+        width: 100px;
+      ">
+        100px
+      </div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        justify-content: space-around;
+      ">
+      <div
+      style="
+        background-color: lightblue;
+        width: 100px;
+      ">
+        100px
+      </div>
+      <div
+      style="
+        background-color: lightpink;
+        width: 100px;
+      ">
+        100px
+      </div>
+      <div
+      style="
+        background-color: lightblue;
+        width: 100px;
+      ">
+        100px
+      </div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        justify-content: space-around;
+        align-items: center;
+      ">
+      <div
+      style="
+        background-color: lightblue;
+        width: 100px;
+      ">
+        100px
+      </div>
+      <div
+      style="
+        background-color: lightpink;
+        width: 100px;
+      ">
+        100px
+      </div>
+      <div
+      style="
+        background-color: lightblue;
+        width: 100px;
+      ">
+        100px
+      </div>
+    </div>
+
+    <!-- Youtube Header layout -->
+    <div class="header">
+      <div class="left-section">
+        left section
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+      </div>
+      <div class="right-section">
+        right section
+      </div>
+    </div>
+
+
+    <!-- Exercises -->
+
+    <!-- Exercise 12.a -->
+    <p>Exercise 12.a</p>
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+      "
+      >
+      <div
+      style="
+        background-color: lightblue;
+        width: 200px;
+      "
+      >
+        200px
+      </div>
+      <div
+      style="
+        background-color: lightpink;
+        width: 75px;
+      "
+      >
+        75px
+      </div>
+    </div>
+
+    <!-- Exercise 12.b -->
+    <p>Exercise 12.b</p>
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+      "
+      >
+      <div
+      style="
+        background-color: lightblue;
+        width: 50px;
+      "
+      >
+        item1
+      </div>
+      <div
+      style="
+        background-color: lightpink;
+        flex: 1;
+      "
+      >
+        item2
+      </div>
+      <div
+      style="
+        background-color: lightblue;
+        width: 75px;
+      "
+      >
+        item3
+      </div>
+    </div>
+
+    <!-- Exercise 12.c -->
+    <p>Exercise 12.c</p>
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(161, 154, 154);
+      "
+      >
+      <div
+      style="
+        background-color: lightblue;
+      "
+      >
+        item1
+      </div>
+      <div
+      style="
+        background-color: lightpink;
+      "
+      >
+        item2
+      </div>
+      <div
+      style="
+        background-color: lightblue;
+      "
+      >
+        item3
+      </div>
+      <div
+      style="
+        background-color: lightpink;
+      "
+      >
+        item4
+      </div>
+    </div>
+
+    <!-- Exercise 12.c -->
+    <p>Exercise 12.c</p>
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        height: 50px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(161, 154, 154);
+        align-items: center;
+      "
+      >
+      <div
+      style="
+        background-color: lightblue;
+      "
+      >
+        item1
+      </div>
+      <div
+      style="
+        background-color: lightpink;
+      "
+      >
+        item2
+      </div>
+    </div>
+  </body>
+</html>
