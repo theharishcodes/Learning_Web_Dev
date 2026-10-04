@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Nested Flexbox</title>
+    <link rel="stylesheet" href="nested_flexbox.css">
+  </head>
+
+  <body>
+    <!-- Exercise 13.a -->
+    <p>Exercise 13.a</p>
+    <div
+      style="
+        display: flex;
+      "
+    >
+      <div
+      style="
+        width: 100px;
+        background-color: lightpink;
+
+        display: flex;
+        justify-content: space-around;
+      "
+    >
+        <p
+          style="
+            background-color: black;
+            color: white;
+          "
+        >item1</p>
+      </div>
+      <div
+      style="
+        width: 200px;
+        background-color: lightblue;
+      "
+    ></div>
+    </div>
+
+    <!-- Exercise 13.b -->
+    <p>Exercise 13.b</p>
+    <div
+      style="
+        display: flex;
+      "
+    >
+      <div
+      style="
+        width: 100px;
+        background-color: lightpink;
+      "
+      ></div>
+      <div
+        style="
+          width: 200px;
+          background-color: lightblue;
+
+          display: flex;
+          flex-direction: column;
+
+          padding-top: 5px;
+          padding-bottom: 20px;
+        "
+      >
+        <div>row1</div>
+        <div
+          style="
+          display: flex;
+
+          justify-content: space-between;
+        "
+        >
+          <div style="background: black; color: white;">row2</div>
+          <div style="background: black; color: white;">row2</div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Exercise 13.c and 13.d -->
+    <p>Exercise 13.c and 13.d</p>
+    <div class="gmail-ios"> <!--Box - column direction flexbox-->
+      <p style="margin: 0px 0px 20px 0px; font-size: 14px; color: rgb(120, 120, 120);">ALL INBOXES</p>
+      <div class="inbox"> <!--row direction flexbox-->
+        <img class="profile-photo" src="images/cat_03.jpeg">
+        <div class="text-info">
+          <div class="name-time">
+            <div class="name">Blacky Monster</div>
+            <div class="time">4:56 PM</div>
+          </div>
+          <div class="subject-of-email">Biggest Sale of the Year!</div>
+          <div class="email-first-line">Hey there! We're writing to tell you about our...</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Exercise 13.e and 13.f -->
+    <p>Exercise 13.e and 13.f</p>
+    <div class="gmail-ios"> <!--Box - column direction flexbox-->
+      <p style="margin: 0px 0px 20px 0px; font-size: 14px; color: rgb(120, 120, 120);">ALL INBOXES</p>
+      
+      <div style="display: flex; flex-direction: column; row-gap: 20px;">
+        <div class="inbox"> <!--row direction flexbox-->
+          <img class="profile-photo" src="images/cat_01.webp">
+          <div class="text-info">
+            <div class="name-time">
+              <div class="name">Chewy Promotions</div>
+              <div class="time">4:56 PM</div>
+            </div>
+            <div class="subject-of-email">Biggest Sale of the Year!</div>
+            <div class="email-first-line">Hey there! We're writing to tell you about our...</div>
+          </div>
+        </div>
+
+        <div class="inbox"> <!--row direction flexbox-->
+          <img class="profile-photo" src="images/cat_02.jpeg">
+          <div class="text-info">
+            <div class="name-time">
+              <div class="name">Best Buy</div>
+              <div class="time">4:56 PM</div>
+            </div>
+            <div class="subject-of-email">Your Best Buy eReceipt</div>
+            <div class="email-first-line">Thank you for shopping at Best Buy, here is...</div>
+          </div>
+        </div>
+
+        <div class="inbox"> <!--row direction flexbox-->
+          <img class="profile-photo" src="images/cat_03.jpeg">
+          <div class="text-info">
+            <div class="name-time">
+              <div class="name">Blacky Monster</div>
+              <div class="time">4:56 PM</div>
+            </div>
+            <div class="subject-of-email">Here's what coming soon to Netflix</div>
+            <div class="email-first-line">Brand new movies and shows, old favorites...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Exercise 13.f & 13.g -->
+    <p>Exercise 13.f & 13.g</p>
+    <div style="display: flex; vertical-align: top; border-width: 1px; border-color: black; border-style: solid; padding: 10px 15px; width: 400px; font-family: Arial;   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4); border: none;
+">
+      <div class="profile-image-container">
+        <img class="profile-image" src="images/cat_01.webp">
+      </div>
+      <div class="tweet-container">
+        <div class="header">
+          <div class="tweeter-name">supersimple.dev</div>
+          <div class="handle">@SuperSimpleDev</div>
+        </div>
+        <div class="tweet-text">What is backend web development? A complete overview. New video is up!</div>
+        <a class="video-box" href="https://www.youtube.com/watch?v=XBu54nfzxAQ">
+          <div class="thumbnail"></div>
+          <div class="video-details">
+            <div style="color: rgb(120, 120, 120); margin-bottom: 6px;">youtube.com</div>
+            <div style="color:black; line-height: 1.4;">Backend web development - a complete overview (2021)</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
