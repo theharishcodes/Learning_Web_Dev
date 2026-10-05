@@ -1,0 +1,54 @@
+<!Doctype html>
+
+<html>
+    <head>
+        <title>CSS Positioning Absotute and Relative</title>
+        <link rel="stylesheet" href="14_f_exercise.css">
+    </head>
+
+    <body style="padding-bottom: 400000px; padding-left: 100px;">
+        <!-- Postion Absolute -->
+        <!-- The element is stick on page, while in postion: fixed; the element was stick to window. -->
+        <!-- The element can be scrolled with the page. -->
+        <div style="width: 300px; height: 200px; background-color: lightblue;position: relative;">
+            <div
+                style="
+                    position: absolute;
+                    bottom: 4px;
+                    right:4px;
+                    
+                    padding: 5px 8px;
+                    background-color: black;
+                    color: white;
+                    font-size: 8px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    border-radius: 2px;
+                "
+            >08:23</div>
+        </div>
+        <div style="width: 100px; background-color: lightpink; position: fixed; top: 0px; left: 0px; bottom: 0px;">
+            Sidebar
+            <div
+                style="
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+                    
+                    padding: 10px 15px;
+                    background-color: lightcoral;
+                "
+            >Hi</div>
+        </div>
+        <div
+            style="
+                position: absolute;
+                top: 8px;
+                left: 8px;
+                /* z-index: 0; Its like layers used in photoshop, higher the z-index, it will appear above other elements. */
+        
+                padding: 10px 15px;
+                background-color: lightcoral;
+            "
+        >Absolute</div>
+    </body>
+</html>
