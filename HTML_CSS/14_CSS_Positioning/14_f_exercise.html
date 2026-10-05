@@ -1,0 +1,45 @@
+<!Doctype html>
+
+<html>
+    <head>
+        <title>CSS Positioning Exercise 14.f</title>
+        <link rel="stylesheet" href="14_f_exercise.css">
+    </head>
+
+    <body>
+        <div
+            style="
+                display: flex;
+                flex-direction: row;
+                font-family: Arial, Helvetica, sans-serif;
+
+                position: fixed;
+                top: 0px;
+                bottom: 0px;
+                left: 0px;
+            "
+        >
+            <div
+                style="
+                    display: flex;
+                    flex-direction: column;
+                    padding: 10px 10px;
+                    background-color: rgb(32, 34, 38);
+                "
+            >
+                <img class="profile" src="04_Images_Tables_List/mars.jpg">
+                <img class="profile" src="04_Images_Tables_List/mars.jpg">
+                <img class="profile" src="04_Images_Tables_List/mars.jpg">
+            </div>
+            <div style="background-color: rgb(47, 49, 53); padding: 10px 15px; font-size: 13px; width: 100px; display: flex; flex-direction: column; row-gap: 15px;">
+                <div style="display: flex; justify-content: space-between;">
+                    <div style="font-weight: bold; color: white;">INFO</div>
+                    <div style="color: rgb(143, 144, 149); font-weight: bold;">&#43;</div>
+                </div>
+                <div style="color: rgb(109, 109, 109);">&#35; new-videos</div>
+                <div style="color: rgb(109, 109, 109);">&#35; updates</div>
+                <div style="color: rgb(109, 109, 109);">&#35; faq</div>
+            </div>
+        </div>
+    </body>
+</html>
